@@ -1,5 +1,10 @@
 import libdnf
-
+#
+# subcommand should be {} not []
+# extraoptions should be {} not []
+#
+# fiure out how to refer to "parent" command
+#
 class CompletionParser(libdnf.conf.ConfigParser):
     def __init__(self):
         super(CompletionParser, self).__init__()
